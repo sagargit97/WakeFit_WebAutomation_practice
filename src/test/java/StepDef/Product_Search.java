@@ -63,27 +63,6 @@ public class Product_Search {
 
     }
 
-    @Then("should see a list of products related to {string}")
-    public void should_see_a_list_of_products_related_to(String string) throws InterruptedException {
-        Thread.sleep(2000);
-        driver.findElement(By.xpath("//img[contains(@src,'https://wakefitdev.gumlet.io/consumer-react/assets/clearicon.svg?')]")).click();
-
-    }
-
-    @When("no products are shown")
-    public void no_products_are_shown() {
-
-        //List<WebElement> Product_type = driver.findElements();
-
-
-    }
-
-    @Then("capture and display the error message")
-    public void capture_and_display_the_error_message() {
-        // Write code here that turns the phrase above into concrete actions
-        throw new io.cucumber.java.PendingException();
-
-    }
 }
 
 
